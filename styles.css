@@ -153,19 +153,21 @@ body {
 .title-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  flex-flow: column;
 }
 
 .title {
-  position: absolute;
-  top: 37%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  width: max-content;
   text-align: center;
   color: whitesmoke;
   text-decoration: underline;
   font-size: 40px;
+  justify-self: center;
+  align-self: center;
 }
 
 /* buttons */
@@ -178,7 +180,6 @@ body {
   text-decoration: none;
   border-radius: 10px;
   border: 3px solid white;
-  position: absolute;
   left: 400px;
   top: 300px;
 }
@@ -187,11 +188,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: max-content;
+  gap: 10px;
+  margin-block: 20px;
+  z-index: 1;
+
 }
 
 /* Facebook */
 .facebook {
-  position: absolute;
   background: transparent;
   color: white;
   left: 460px;
@@ -205,7 +211,6 @@ body {
 }
 
 .facebook-reverse {
-  position: absolute;;
   background-color: transparent;
   left: 460px;
   top: 300px;
@@ -232,7 +237,6 @@ body {
 
 /* Twitter */
 .twitter {
-  position: absolute;
   background-color: transparent  ;       
   left: 700px;
   top: 300px;
@@ -246,7 +250,6 @@ body {
 }
  
 .twitter-reverse {
-  position: absolute;;
   background-color: transparent;
   left: 700px;
   top: 300px;
@@ -263,7 +266,6 @@ body {
 /* Steam */
 .steam {
   left: 820px;
-  position: absolute;
   background: transparent;
   color: white;
   transition: all 0.4s ease-in-out;
@@ -275,7 +277,6 @@ body {
 }
 
 .steam-reverse {
-  position: absolute;;
   background-color: transparent;
   left: 820px;
   color: black;
@@ -290,7 +291,6 @@ body {
 
 /* Instagram */
 .instagram {
-  position: absolute;
   background: transparent;
   color: white;
   left: 580px;
@@ -303,7 +303,6 @@ body {
 }
 
 .instagram-reverse {
-  position: absolute;;
   background-color: transparent;
   left: 580px;
   color: black;
@@ -321,6 +320,7 @@ body {
   top: 0;
   right: 0; 
   margin: 20px 40px 20px 0;
+  z-index: 2;
 }
 
 /* .inner-container {
