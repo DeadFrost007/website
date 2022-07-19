@@ -129,7 +129,7 @@ cursor.init();
 const checkbox = document.querySelector(".checkbox");
 
     checkbox.addEventListener('change', (e) => {
-      const facebook =  document.querySelector(".facebook")
+      const github =  document.querySelector(".github")
       const twitter = document.querySelector(".twitter")
       const steam = document.querySelector(".steam")
       const instagram = document.querySelector(".instagram")
@@ -182,8 +182,8 @@ const checkbox = document.querySelector(".checkbox");
         // instagram.classList.add("reverse")
         // instagram.classList.add("hover-reverse");
 
-        // facebook.classList.add("reverse")
-        // facebook.classList.add("hover-reverse")
+        // github.classList.add("reverse")
+        // github.classList.add("hover-reverse")
 
         // twitter.classList.add("reverse")
         // twitter.classList.add("hover-reverse")
@@ -193,7 +193,7 @@ const checkbox = document.querySelector(".checkbox");
 
         instagram.classList.add("instagram-reverse")
 
-        facebook.classList.add("facebook-reverse")
+        github.classList.add("github-reverse")
         
         twitter.classList.add("twitter-reverse")
 
@@ -232,8 +232,8 @@ const checkbox = document.querySelector(".checkbox");
         // instagram.classList.remove("reverse")
         // instagram.classList.remove("hover-reverse")
 
-        // facebook.classList.remove("reverse")
-        // facebook.classList.remove("hover-reverse")
+        // github.classList.remove("reverse")
+        // github.classList.remove("hover-reverse")
 
         // twitter.classList.remove("reverse")
         // twitter.classList.remove("hover-reverse")
@@ -243,7 +243,7 @@ const checkbox = document.querySelector(".checkbox");
 
         instagram.classList.remove("instagram-reverse")
 
-        facebook.classList.remove("facebook-reverse")
+        github.classList.remove("github-reverse")
         
         twitter.classList.remove("twitter-reverse")
 
